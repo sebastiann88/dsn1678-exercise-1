@@ -1,0 +1,30 @@
+.floatleft
+{   float:left;
+    width: 32%;
+}
+
+.title
+{   font-size: 1.2em;
+}
+
+.absolute
+{   position:absolute;
+    bottom: 0;
+}
+
+.relative
+{ position: relative
+}
+
+.title
+{   size: 2em;
+    left: 2em;
+}
+
+html {
+    background-color: gray;
+}
+
+body {
+    background-color: lightgray;
+}
