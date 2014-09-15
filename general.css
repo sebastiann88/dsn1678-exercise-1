@@ -13,11 +13,13 @@
 }
 
 .relative
-{ position: relative
+{
+    position: relative;
+    background-color: white;
 }
 
 .title
-{   size: 2em;
+{   font-size: 2em;
     padding: 1em 2em;
 }
 
@@ -33,12 +35,12 @@ body {
 
 figcaption {
     color: white;
-    padding: 1em;
-    background-color: gray;
+    padding: 1em 0em 1em;
     width: 100%;
-    opacity: 50%;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.6em;
+    background-color: black;
+    opacity: 0.4;
 }
 
 figure {
@@ -47,4 +49,17 @@ figure {
 
 img {
     width: 100%;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding-left: 2em;
+}
+
+footer {
+    color: lightgray;
+}
+
+.white {
+    background-color: white;
 }
