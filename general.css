@@ -1,26 +1,41 @@
-.floatleft
-{   display:inline-block;
-    width: 32%;
+.headers {
+    display:inline-block;
+    width: 20%;
+    overflow: hidden;
 }
 
-.title
-{   font-size: 1.2em;
+.units {
+    display:inline-block;
+    width: 20%;
+    overflow: hidden;
 }
 
-.absolute
-{   position:absolute;
+
+.absolute {   
+    position:absolute;
     bottom: 0;
 }
 
-.relative
-{
+.relative {
     position: relative;
     background-color: white;
 }
 
-.title
-{   font-size: 2em;
-    padding: 1em 2em;
+.title {   
+    font-size: 2em;
+    padding: 0.5em 0.5em 0.5em 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.headers {
+    font-size: 1em;
 }
 
 html {
